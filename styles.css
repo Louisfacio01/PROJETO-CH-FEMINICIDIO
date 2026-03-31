@@ -79,6 +79,19 @@ p, li {
     line-height: 1.6;
 }
 
+.img-casos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+
+}
+
+.link{
+    
+    color: #ff0173
+}
+
 /* CARDS */
 .card {
     background: rgba(255,255,255,0.05);
@@ -86,6 +99,25 @@ p, li {
     border-radius: 15px;
     margin-top: 20px;
     transition: 0.3s;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card-p{
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    transition: 0.3s;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card:hover {
@@ -130,13 +162,13 @@ p, li {
 .div-pesquisa{
     display: flex;
     text-decoration: none;
-    color:#240046;
-    justify-content: initial;
+    color:#000;
+    justify-content: center;
     align-items: center;
     background-color: white;
     border-radius: 3px;
     height: 60px;
-    width: 130px;
+    width: 260px;
 }
 
 
